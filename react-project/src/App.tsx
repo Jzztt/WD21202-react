@@ -1,3 +1,4 @@
+import ConditionalRender from "./components/ConditionalRender";
 import Home from "./components/Home";
 import Product from "./components/Product";
 import StateComponent from "./components/StateComponent";
@@ -11,7 +12,8 @@ function App() {
       <p>Welcome, {name}!</p>
       {/* <Home /> */}
       {/* <Product/> */}
-      <StateComponent />
+      {/* <StateComponent /> */}
+      <ConditionalRender />
     </>
   );
 }
